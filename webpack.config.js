@@ -1,6 +1,6 @@
 export default {
     mode: 'development',
-    entry:'./src/index.js',
+    entry:'./src/index.html',
     output:{
       filename: 'bundle.js',
   },
@@ -14,7 +14,7 @@ export default {
   },
   module: {
     rules: [{ 
-        test: /.jsx?$/,
+        test: /.js$|jsx?$/,
         use: ['babel-loader']
     }],
   },

@@ -6,7 +6,7 @@ import Header from './components/Header.jsx';
 const App = () =>{
     return(
         <>
-            <Header title ="test"/>
+            
                 
         </>
     )
